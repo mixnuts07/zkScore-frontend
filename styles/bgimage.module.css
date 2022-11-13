@@ -1,0 +1,40 @@
+/* TODO: .bg以外のbackground-imageが文字や背景色も含んでいるのでコンポーネント化、画像化へと変更*/
+.bg {
+  background-image: url("../public/images/backGroundImage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+.home {
+  background-image: url("../public/1106/defaultImage.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 300px;
+}
+.issue {
+  background-image: url("../public/images/issueBgi.png");
+  min-width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+.ver {
+  background-image: url("../public/images/verBgi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  min-height: 100vh;
+}
+.own {
+  background-image: url("../public/images/ownBgi.png");
+  min-width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
